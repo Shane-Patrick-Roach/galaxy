@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="flex h-screen">
+      <div class="w-1/4 flex flex-col justify-center px-8">
+        <h1 class="text-white text-4xl mb-8 leading-none">Galaxy Generator</h1>
+        <p class="text-gray-400">
+          Use the gui to create your own galaxies!
+        </p>
+      </div>
+
+      <div class="w-3/4" id="canvasContainer">
+        <canvas></canvas>
+      </div>
+    </div>
+    
+  
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
